@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: #f3f4f6;
+    font-family: 'Open Sans', "Segoe UI", Tahoma,sans-serif;
+    font-weight: 400px;
+}
+
+.container {
+   max-width: 768px;
+   padding-left: 16px;
+   padding-right: 16px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.section {
+   margin-top: 48px;
+   margin-bottom: 48px;
+}
+
+.article {
+    font-size: calc(18 / 16 * 1rem);
+    line-height: 178%;
+    font-weight: 300;
+}
+.article h1 {
+   font-size: calc(36 / 16 * 1rem);
+   line-height: 111%;
+   margin-bottom: 32px;
+}
+
+.article h2 {
+   font-size: calc(24 / 16 * 1rem);
+   line-height: 133%;
+   margin-top: 56px;
+   margin-bottom: 24px;
+}
+
+.article p {
+   margin-top: 24px;
+   margin-bottom: 24px;
+
+}
