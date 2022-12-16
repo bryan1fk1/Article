@@ -39,5 +39,51 @@ body {
 .article p {
    margin-top: 24px;
    margin-bottom: 24px;
+}
 
+.article ul {
+    padding-left: 24px;
+}
+
+.article blockquote {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-color: hsl(24,6%,83%);
+    padding: 18px 16px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.article figure img {
+    border-radius: 8px;
+}
+
+.article figure figcaption {
+    font-size: calc(16 / 16 * 1rem);
+    line-height: 150%;
+    margin-top: 16px;
+}
+
+.article a {
+    font-weight: 400;
+    color: hsl(335, 78% , 42%, 1);
+}
+
+.article strong {
+    font-size: 600;
+}
+
+.article em {
+    font-style: italic;
+}
+
+.dark {
+    background-color: hsl(30, 6%, 25%);
+    color: white;
+    font-size: calc(30 / 16 *1rem);
+    line-height: 120%;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 16px 0;
 }
